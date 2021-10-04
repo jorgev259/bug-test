@@ -1,0 +1,35 @@
+@import "Variables.scss";
+
+.albumBox {
+    border-radius: 15px;
+    background-color: rgba(17,17,17,.7);
+    opacity: 1;
+    cursor: pointer;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    .img {
+        width: 100%;
+        transition: transform .2s, border-radius .3s;
+        transform: scale(.95);
+    }
+
+    .img, img { border-radius: 15px 15px 0 0 }
+
+    img {
+        box-shadow: 0 0 3px 0 rgba(0,0,0,.5);       
+    }
+}
+
+.albumBox.coming {
+    opacity: .7;
+}
+
+.albumBox:hover {
+    background-color: rgba(50, 50, 50, 0.7);
+    color: $link-color;
+    text-decoration: underline;
+
+    .img { transform: scale(1) }
+}

@@ -1,0 +1,12 @@
+{
+  "development": {
+    "host": "localhost",
+    "username": "root",
+    "dialect": "mysql",
+    "database": "soc",
+    "password": "root",
+    "waitForConnections": true,
+    "connectionLimit": 10,
+    "queueLimit": 0
+  }  
+}

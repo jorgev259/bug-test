@@ -1,0 +1,15 @@
+{
+    "extends": [   
+        "next/core-web-vitals",
+        "plugin:react/recommended",         
+        "standard"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "indent": ["error", 2]
+    }
+}

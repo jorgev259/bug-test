@@ -1,0 +1,20 @@
+{
+    "permissions": [
+        "CREATE",
+        "UPDATE",
+        "MANAGE_USER",
+        "SKIP_ADS"
+    ],
+    "classes": [
+        "Game",
+        "Animation"
+    ],
+    "categories": [
+        "Original Soundtrack",
+        "GameRip",
+        "Vocal",
+        "Arrangement",
+        "Drama",
+        "Live Event"
+    ]
+}

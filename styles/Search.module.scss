@@ -1,0 +1,46 @@
+.result {
+    background-color: #33353E;
+
+    h2, a {
+        color: #6EC1E4;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 300;
+
+    }
+
+    h2:focus, h2:active {
+        color: #00d4ff;
+    }
+
+    .cover {
+        max-height: 180px;
+        // width: 180px;
+    }
+
+}
+
+.result:hover {
+    cursor: pointer;
+    h2 {
+        color: #00d4ff;
+        text-decoration: underline;
+    }
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
